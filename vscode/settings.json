@@ -1,0 +1,17 @@
+{
+    "workbench.sideBar.location": "right",
+    "editor.minimap.enabled": false,
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true,
+        "source.organizeImports": true
+    },
+    "editor.defaultFormatter": null,
+    "javascript.format.semicolons": "remove",
+    "typescript.format.semicolons": "remove",
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'Cascadia Code', 'monospace', monospace",
+    "editor.fontSize": 13,
+    "editor.fontWeight": "400",
+    "workbench.colorTheme": "GitHub Dark Dimmed"
+}
