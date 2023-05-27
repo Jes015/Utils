@@ -13,5 +13,6 @@
     "editor.fontFamily": "'Cascadia Code', 'monospace', monospace",
     "editor.fontSize": 13,
     "editor.fontWeight": "400",
-    "workbench.colorTheme": "GitHub Dark Dimmed"
+    "workbench.colorTheme": "GitHub Dark Dimmed",
+    "javascript.preferences.quoteStyle": "single"
 }
