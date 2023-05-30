@@ -13,5 +13,9 @@
     "editor.fontFamily": "'Cascadia Code', 'monospace', monospace",
     "editor.fontSize": 13,
     "editor.fontWeight": "400",
-    "workbench.colorTheme": "GitHub Dark Dimmed"
+    "workbench.colorTheme": "GitHub Dark Dimmed",
+    "telemetry.telemetryLevel": "off",
+    "eslint.packageManager": "pnpm",
+    "javascript.format.insertSpaceAfterSemicolonInForStatements": false,
+    "typescript.format.insertSpaceAfterSemicolonInForStatements": false
 }
