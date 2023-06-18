@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Youtube
+Comment=Watch videos
+Exec=brave https://www.youtube.com/
+Icon=/home/jes/.local/share/applications/icons/youtube.png
+Type=Application
+

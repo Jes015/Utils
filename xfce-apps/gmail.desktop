@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Gmail
+Comment=Mail server
+Exec=brave https://mail.google.com/mail/u/0/
+Icon=/home/jes/.local/share/applications/icons/gmail.png
+Type=application
+

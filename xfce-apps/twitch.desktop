@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Twitch
+Comment=Streaming service
+Exec=brave https://www.twitch.tv/
+Icon=/home/jes/.local/share/applications/icons/twitch.png
+Type=Application
+

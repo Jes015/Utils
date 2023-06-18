@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Netflix
+Comment=Streaming service
+Exec=brave https://www.netflix.com/
+Icon=/home/jes/.local/share/applications/icons/netflix.png
+Type=Application
+

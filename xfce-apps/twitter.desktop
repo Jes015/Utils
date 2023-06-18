@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Twitter
+Comment=Social media
+Exec=brave https://twitter.com/home
+Icon=/home/jes/.local/share/applications/icons/twitter.png
+Type=application
+

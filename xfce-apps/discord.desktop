@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Discord
+Comment=Social Media
+Exec=brave https://discord.com/channels/@me
+Icon=/home/jes/.local/share/applications/icons/discord.png
+Type=Application
+

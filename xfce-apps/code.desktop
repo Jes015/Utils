@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Code
+Comment=Text editor
+Exec=code
+Icon=/home/jes/.local/share/applications/icons/vscode.png
+Type=application
+

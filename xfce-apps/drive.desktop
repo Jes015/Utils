@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Drive
+Comment=File server
+Exec=brave https://drive.google.com/drive/u/0/my-drive
+Icon=/home/jes/.local/share/applications/icons/drive.png
+Type=application
+

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Google
+Comment=Search engine
+Exec=brave https://www.google.com/
+Icon=/home/jes/.local/share/applications/icons/google.png
+Type=Application
+

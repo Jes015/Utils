@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Github
+Comment=Git server
+Exec=brave https://github.com/Jes015
+Icon=/home/jes/.local/share/applications/icons/github.png
+Type=Application
+

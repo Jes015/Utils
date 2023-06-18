@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Chat gpt
+Comment=AI service
+Exec=brave https://chat.openai.com/
+Icon=/home/jes/.local/share/applications/icons/chatgpt.png
+Type=Application
+

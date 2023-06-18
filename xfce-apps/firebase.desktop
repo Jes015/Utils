@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Firebase
+Comment=Streaming service
+Exec=brave https://console.firebase.google.com/u/0/
+Icon=/home/jes/.local/share/applications/icons/firebase.png
+Type=Application
+
