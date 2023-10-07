@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# Directorio de entrada con archivos WAV
+directorio_entrada="/ruta/a/tu/directorio"
+
+# Verificar si el directorio de entrada existe
+if [ ! -d "$directorio_entrada" ]; then
+    echo "El directorio de entrada no existe."
+    exit 1
+fi
+
+# Iterar sobre todos los archivos WAV en el directorio de entrada
+for archivo_entrada in "$directorio_entrada"/*.wav; do
+    if [ -e "$archivo_entrada" ]; then
+        # Generar el nombre del archivo de salida en formato Ogg Vorbis
+        archivo_salida="${archivo_entrada%.wav}.ogg"
+
+        # Usar ffmpeg para convertir el archivo WAV a Ogg Vorbis
+        ffmpeg -i "$archivo_entrada" -c:a libvorbis "$archivo_salida"
+
+        # Verificar si la conversión fue exitosa
+        if [ $? -eq 0 ]; then
+            echo "Se ha convertido $archivo_entrada a $archivo_salida."
+        else
+            echo "Error al convertir $archivo_entrada."
+        fi
+    fi
+done
+
+echo "¡Proceso de conversión completo!"
