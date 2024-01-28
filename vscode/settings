@@ -2,8 +2,8 @@
     "autoBarrel.excludeSemiColonAtEndOfLine": true,
     "cSpell.language": "en,es",
     "editor.codeActionsOnSave": {
-        "source.fixAll": true,
-        "source.organizeImports": true
+        "source.fixAll": "explicit",
+        "source.organizeImports": "explicit"
     },
     "editor.defaultFormatter": null,
     "editor.fontFamily": "'Cascadia Code', 'monospace', monospace",
@@ -40,5 +40,7 @@
     "audioCues.volume": 80,
     "audioCues.format": "userGesture",
     "window.titleBarStyle": "custom",
+    "editor.guides.bracketPairs": true,
     "workbench.activityBar.location": "top",
+    "workbench.tree.enableStickyScroll": true
 }
