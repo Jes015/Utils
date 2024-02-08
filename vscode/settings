@@ -42,5 +42,13 @@
     "window.titleBarStyle": "custom",
     "editor.guides.bracketPairs": true,
     "workbench.activityBar.location": "top",
-    "workbench.tree.enableStickyScroll": true
+    "workbench.tree.enableStickyScroll": true,
+    "todo-tree.highlights.enabled": false,
+    "typescript.tsc.autoDetect": "off",
+    "grunt.autoDetect": "off",
+    "jake.autoDetect": "off",
+    "gulp.autoDetect": "off",
+    "npm.autoDetect": "off",
+    "task.autoDetect": "off",
+    "task.allowAutomaticTasks": "off"
 }
