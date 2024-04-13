@@ -43,7 +43,7 @@ super + g
 #
 
 # set the window state
-super + {t,shift + t,s,f}
+alt + shift + {t,shift + t,s,f}
 	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
 
 # set the node flags
@@ -55,8 +55,11 @@ super + ctrl + {m,x,y,z}
 #
 
 # focus the node in the given direction
-super + {_,shift + }{h,j,k,l}
-	bspc node -{f,s} {west,south,north,east}
+alt + {Left,Down,Up,Right}
+	bspc node -f {west,south,north,east}
+
+alt + shift + {Left,Down,Up,Right}
+	bspc node -s {west,south,north,east}
 
 # focus the node for the given path jump
 super + {p,b,comma,period}
@@ -89,7 +92,7 @@ super + {_,shift + }{1-9,0}
 #
 
 # preselect the direction
-super + ctrl + {h,j,k,l}
+ctrl + alt + {h,j,k,l}
 	bspc node -p {west,south,north,east}
 
 # preselect the ratio
@@ -113,11 +116,11 @@ ctrl + alt + {h,j,k,l}
 	bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
 
 # contract a window by moving one of its side inward
-super + alt + shift + {h,j,k,l}
+ctrl + alt + shift + {h,j,k,l}
 	bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
 
 # move a floating window
-super + {Left,Down,Up,Right}
+shift + alt + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
 
 #
@@ -131,11 +134,14 @@ Print
 # volume
 #
 
-XF86AudioRaiseVolume
+# XF86AudioRaiseVolume / F3
+F3
 	amixer set Master 5%+
 
-XF86AudioLowerVolume
+# XF86AudioLowerVolume / F2
+F2
 	amixer set Master 5%-
 
-XF86AudioMute
+# XF86AudioMute / F1
+F1
 	amixer set Master toggle
